@@ -1,0 +1,8 @@
+TYSKA LAKIERNIA — URUCHOMIENIE
+
+1. Wypakuj folder Tyska_Lakiernia.
+2. Otwórz terminal w folderze, w którym znajduje się index.html.
+3. Wpisz: python3 -m http.server 8000
+   W Windows możesz spróbować: py -m http.server 8000
+4. Otwórz http://localhost:8000 w przeglądarce.
+5. Katalog edytujesz w pliku script.js — na górze, w tablicy allItems.

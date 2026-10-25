@@ -1,0 +1,10 @@
+ODZYSKIWANIE KATALOGU TYSKA LAKIERNIA
+
+Ten plik script.js zawiera ponownie oba wpisy, które podałeś:
+- PKM Tychy #4701
+- PKM Tychy #4699
+
+Skopiuj script.js do swojego aktualnego folderu strony i zastąp nim obecny script.js.
+Nie podmieniaj index.html ani style.css. Nie usuwaj folderu Images.
+
+Uwaga: nazwy ścieżek do zdjęć pozostawiono dokładnie tak, jak podałeś. Na Linuksie wielkość liter ma znaczenie.

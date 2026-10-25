@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101a32">
+<title>Tyska Lakiernia — malowania do OMSI 2</title>
+<meta name="description" content="Wirtualne malowania autobusów do OMSI 2. Projekty, podglądy i pobieranie.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#start" aria-label="Tyska Lakiernia — strona główna">
+    <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+    <span class="brand-name">TYSKA <b>LAKIERNIA</b><small>WIRTUALNE MALOWANIA · OMSI 2</small></span>
+  </a>
+  <nav><a href="#malowania">Malowania</a><a href="#jak-pobrac">Jak pobrać?</a><a href="#o-projekcie">O projekcie</a></nav>
+</header>
+
+<main id="start">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot"></span> NIEZALEŻNY PROJEKT FANOWSKI</p>
+      <h1>Autobusy mają<br><em>swoje barwy.</em></h1>
+      <p class="hero-text">Malowania do OMSI 2 inspirowane komunikacją miejską — przygotowane z myślą o detalach, które robią różnicę.</p>
+      <a class="primary-btn" href="#malowania">Zobacz malowania <span>↘</span></a>
+      <div class="hero-stats"><div><strong id="count">0</strong><span>malowań w katalogu</span></div><div><strong>OMSI 2</strong><span>wirtualna komunikacja</span></div></div>
+    </div>
+
+  </section>
+
+  <section class="section" id="malowania">
+    <div class="section-head"><div><p class="eyebrow">KATALOG</p><h2>Malowania</h2></div><p class="section-note">Wybierz pojazd, sprawdź podgląd i pobierz pliki.</p></div>
+    <div class="filters">
+      <label class="search"><span>⌕</span><input id="search" type="search" placeholder="Szukaj pojazdu, operatora…" aria-label="Szukaj malowań"></label>
+      <select id="busFilter" aria-label="Filtruj po modelu"><option value="">Wszystkie modele</option></select>
+      <select id="operatorFilter" aria-label="Filtruj po operatorze"><option value="">Wszyscy operatorzy</option></select>
+    </div>
+    <div id="catalog" class="catalog" aria-live="polite"></div>
+    <div id="empty" class="empty" hidden>Nie znaleziono malowań. Zmień wyszukiwanie lub filtry.</div>
+  </section>
+
+  <section class="download-strip" id="jak-pobrac">
+    <div class="download-icon">↓</div><div><p class="eyebrow">PIERWSZY RAZ?</p><h2>Jak dodać malowanie do OMSI 2</h2><p>Każda karta malowania powinna zawierać instrukcję instalacji. Zawsze sprawdź opis autora i wymagany model autobusu.</p></div>
+    <ol><li>Pobierz archiwum malowania.</li><li>Rozpakuj je zgodnie z instrukcją w paczce.</li><li>Uruchom OMSI 2 i wybierz odpowiedni wariant pojazdu.</li></ol>
+  </section>
+
+  <section class="about" id="o-projekcie">
+    <div><p class="eyebrow">O TYSKIEJ LAKIERNI</p><h2>Fanowskie malowania.<br><em>Pasja do komunikacji.</em></h2></div>
+    <div class="about-copy"><p>Tyska Lakiernia to niezależny projekt skupiony na wirtualnych malowaniach autobusów do OMSI 2. Katalog będzie rozwijany wraz z kolejnymi projektami.</p><p class="disclaimer">Projekt nie jest oficjalnie powiązany z Górnośląsko-Zagłębiowską Metropolią, ZTM ani przewoźnikami. Nazwy i oznaczenia operatorów służą identyfikacji fanowskich projektów.</p></div>
+  </section>
+</main>
+<footer><a class="footer-brand" href="#start">TYSKA LAKIERNIA<span> / OMSI 2</span></a><span>Wirtualne malowania · projekt fanowski</span><a href="#start">Na górę ↑</a></footer>
+<script src="script.js"></script>
+</body>
+</html>
